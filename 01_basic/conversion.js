@@ -21,7 +21,7 @@ console.log(typeof (marks))
 /*
 conversion in number ,   => 
     ""33" in Number => 33 
-    "33abd" in Number => NaN (not a number) but type is still is Number
+    "33abd" in Number but typeof output => NaN (not a number) but type is still is Number
     true => 1 , false => 0 , conversion in number same as Viseversa 
     Number , Boolean , String , Flote are the keyword for conversion
 
@@ -45,7 +45,7 @@ console.log("1"+ 2) // string + int = string
 console.log(1+"2")  // int + string = int 
 console.log("1"+ "2") // str + str = str
 console.log(1+2+"3")   // int + int + str = int + str 
-console.log("1"+2+3) // str + int + str = str + int 
+console.log("1"+2+3) // str + int + int = str + int 
 
 /*
 this is also about conversion , 1st value k type ki tarah se , rest value bhi usi type treat ki jati h 
