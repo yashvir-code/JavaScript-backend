@@ -61,10 +61,13 @@ let userone = {
     email:"yash@gmail.com",
     age:12
 }
-
+ 
 let usertwo = userone;
-usertwo.email(veer@gmail.com)
+usertwo.email("veer@gmail.com")
 
 
 console.log(userone)
 console.log(usertwo)
+
+// the output value will same foe the both output
+
