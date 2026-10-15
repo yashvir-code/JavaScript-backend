@@ -28,6 +28,9 @@ for (const [key,value] of map) {
     console.log(key,":", value);    
 }
 
-// const myobject = {
+const myobject = {
+    'game1':'NFS',
+    'game2':'Spidername'
+}
 
-// }
+// for of loop object iterate nahi kar sakta properly 
